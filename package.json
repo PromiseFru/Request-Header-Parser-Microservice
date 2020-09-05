@@ -1,0 +1,27 @@
+{
+  "name": "Request-Header-Parser-Microservice",
+  "version": "1.0.0",
+  "description": "1. I can get the IP address, preferred languages (from header Accept-Language) and system infos (from header User-Agent) for my device.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "devstart": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PromiseFru/Request-Header-Parser-Microservice.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PromiseFru/Request-Header-Parser-Microservice/issues"
+  },
+  "homepage": "https://github.com/PromiseFru/Request-Header-Parser-Microservice#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
